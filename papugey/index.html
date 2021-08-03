@@ -1,1 +1,53 @@
-s
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css" href="style.css" media="screen" />
+    <title>Папугей: Да, он здесь</title>
+</head>
+<body>
+    <style>
+        @import url('https://fonts.googleapis.com/css2?family=Comfortaa:wght@500&family=Inter:wght@200&display=swap');
+        </style>
+    <h1 id=main align="center">ПапуГей БЕТА</h1>
+    <button class="button red" id="red" align="center">Зайти к ПапуГею в лс</button>
+    <p><img src="https://raw.githubusercontent.com/nokomotc/nokomotc.github.io/main/papugey/upload_2021_08_01_21_22_01_663.jpg", alt="Крутой папуг", id=coolpapug>
+        <h1 id=mainftext>Какой-то очень крутой заголовок с вставкой 'чат-менеджер'</h1>
+        <h1 id=textftext>ПапуГей - отличный чат-менеджер со своей тех-поддержкой, большим количеством фунций (как в старших братьях) и своим api. Я часто прислушиваюсь к просьбам комьюинити. Молодой игрок на ринге, может запапугеить вас с ног до головы (:3) и имеет частые обновления в своем репертуаре. Это не все что вам нужно? Ну-с... Вы сами можете предложить свою идею прямо сейчас! Заходим в t.me/papugeyi (там кстати обновления постятся), затем заходим в чат и просим то, чего надо. Готово!</h1>
+        <h3 id=picftext>Крутой ПапуГей</h3>
+    </p>
+    <h1 id=dev>ПапуГей для разработчиков</h1>
+    <button class="buttom devb" id=devb align="center">Да, я разработчик</button>
+    
+    <!-- <img src="https://raw.githubusercontent.com/nokomotc/nokomotc.github.io/main/papugey/image.png" alt="папуги ууу" hspase=0 vspace=0> -->
+    <!-- https://vk.com/feed?z=photo-156869701_457262193%2Falbum-156869701_00%2Frev Вот тут пикча с папугом :> -->
+    <script>
+        window.onload = init;
+
+        function init()
+        {
+        var button = document.getElementById("red")
+        button.onclick = handleButtonClick;
+        }
+
+        function handleButtonClick() {
+            window.location.href = 'https://t.me/papugeybeta_bot'; // редеректим польщователя, если тот нажмет на кнопку
+        }
+    </script>
+    <script>
+        window.onload = init;
+
+        function init()
+        {
+        var button = document.getElementById("devb")
+        button.onclick = handleButtonClick;
+        }
+
+        function handleButtonClick() {
+            window.location.href = '/dev'; // редеректим польщователя, если тот нажмет на кнопку
+        }
+    </script>
+</body>
+</html>
