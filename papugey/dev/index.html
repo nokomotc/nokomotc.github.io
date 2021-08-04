@@ -1,1 +1,30 @@
-html
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>переход на темную сторону</title>
+</head>
+<body>
+    <h1>Привет! Материал для разработчиков не слишком красивый, нажми на кнопку ниже для потверждения своего выбора</h1>  
+    <h2>Но ненастолько уродливый как эта страница</h2>
+    <button id=yes align="center">Ага, переноси</button>
+    <button id=no align="center">Ну теперь я не хочу</button>
+    <script>
+        window.onload = init;
+
+        function init()
+        {
+        var button = document.getElementById("yes")
+        button.onclick = handleButtonClick;
+        }
+
+        function handleButtonClick() {
+            window.location.href = 'text.txt'; // редеректим польщователя, если тот нажмет на кнопку
+        }
+    </script>
+</body>
+</html>
+</body>
+</html>
